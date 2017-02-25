@@ -13,7 +13,7 @@ Due to poor Internet connection, most of the setup and installation instructions
 
 This repo requires that you have node.js and npm's Bower installed in your machine, for the initial download. Bower will install the necessary Polymer elements in order for the codelab to run. npm's Polymer is optional if you already have a web server in your machine. Otherwise, you can install Polymer via npm and use polymer serve to run the codelab in your local machine via HTTP.
 
-This repo should be downloaded once, its Bower package run once, and then distributed to the rest of the members via a local web server or removable drive.
+This repo should be downloaded once, its Bower package run once, and then the downloaded/cloned folder distributed to the rest of the members via a local web server or removable drive.
 
 ## Contributors
 
