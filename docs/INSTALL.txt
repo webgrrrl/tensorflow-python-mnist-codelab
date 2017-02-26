@@ -22,9 +22,13 @@ Windows:
 	Install Anaconda, Python 3 version: https://www.continuum.io/downloads#windows
 	Anaconda comes with matplotlib built in.
 	Open Anaconda prompt and type the following:
-	conda create -tensorflow python=3.6
+	conda create -tensorflow python=3.2 (type y, do not press the Enter key)
 	activate tensorflow
 	conda install conda-forge tensorflow
+	Debugging -- If at any time you would like to re-create a conda environment, type the following:
+	deactivate tensorflow
+	Then, go to c:/Users/<your Windows identity>/Anaconda3/envs and delete the "tensorflow" folder.
+	Follow the conda steps stated above to re-install TensorFlow via conda.
 
 Windows/Virtualbox:
 	Install Virtualbox from https://www.virtualbox.org/wiki/Downloads
