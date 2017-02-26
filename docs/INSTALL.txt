@@ -30,7 +30,7 @@ Windows:
 	deactivate tensorflow
 	Then, go to c:/Users/<your Windows identity>/Anaconda3/envs and delete the "tensorflow" folder.
 	Follow the conda steps stated above again to re-install TensorFlow via conda and pip.
-	IMPORTANT NOTE: This installation uses CPU, which is slower than GPU processing, but will ensure that all computers can be supported. If youwould rather use GPU, follow the steps to install CUDA here:
+	IMPORTANT NOTE: This installation uses CPU, which is slower than GPU processing, but will ensure that all computers can be supported. If you would rather use GPU, follow the steps to install CUDA here:
 	Then, replace the pip install URL to https://storage.googleapis.com/tensorflow/windows/gpu/tensorflow_gpu-1.0.0rc2-cp35-cp35m-win_amd64.whl 
 
 Windows/Virtualbox:
