@@ -21,7 +21,10 @@ Ubuntu/Linux:
 Windows:
 	Install Anaconda, Python 3 version: https://www.continuum.io/downloads#windows
 	Anaconda comes with matplotlib built in.
-	In the Anaconda shell type: pip install --upgrade tensorflow
+	Open Anaconda prompt and type the following:
+	conda create -tensorflow python=3.6
+	activate tensorflow
+	conda install conda-forge tensorflow
 
 Windows/Virtualbox:
 	Install Virtualbox from https://www.virtualbox.org/wiki/Downloads
