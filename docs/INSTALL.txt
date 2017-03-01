@@ -20,7 +20,6 @@ Ubuntu/Linux:
 
 Windows:
 	Install Anaconda, Python 3 version: https://www.continuum.io/downloads#windows
-	Anaconda comes with matplotlib built in.
 	Open Anaconda prompt and type the following:
 	conda create -tensorflow python=3.5 (type y, do not press the Enter key)
 	activate tensorflow
