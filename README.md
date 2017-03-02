@@ -3,7 +3,7 @@ Github tutorial: https://github.com/martin-gorner/tensorflow-mnist-tutorial
 
 ## Synopsis
 
-This codelab is taken from the original codelab at Google Developer [https://codelabs.developers.google.com/codelabs/cloud-tensorflow-mnist] and modified for offline use by the GDG Kota Kinabalu community. 
+This codelab is taken from the original codelab at Google Developer [https://codelabs.developers.google.com/codelabs/cloud-tensorflow-mnist] and modified for offline use by the GDG Kota Kinabalu community.
 
 ## Motivation
 
@@ -11,9 +11,9 @@ Due to poor Internet connection, most of the setup and installation instructions
 
 ## Installation
 
-This repo requires that you have node.js and npm's Bower installed in your machine, for the initial download. Bower will install the necessary Polymer elements in order for the codelab to run. npm's Polymer is optional if you already have a web server in your machine. Otherwise, you can install Polymer via npm and use polymer serve to run the codelab in your local machine via HTTP.
+This repo requires that you have node.js and npm's Bower installed in your machine, for the initial download. npm's Polymer is optional if you already have a web server in your machine. Otherwise, you can install Polymer via npm and use polymer serve to run the codelab in your local machine via HTTP. You can also use Python and run python -m http.server within the codelab's root folder.
 
-This repo should be downloaded once, its Bower package run once, and then the downloaded/cloned folder distributed to the rest of the members via a local web server or removable drive.
+This repo should be downloaded once, its Bower package updated once, and then the downloaded/cloned folder distributed to the rest of the members via a local web server or removable drive.
 
 ## Contributors
 
