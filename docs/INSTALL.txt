@@ -23,7 +23,7 @@ Windows:
 	Open Anaconda prompt and type the following:
 	conda create -n tensorflow python=3.5 (type y, do not press the Enter key)
 	activate tensorflow
-	pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-1.0.0rc2-cp35-cp35m-win_amd64.whl
+	pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-1.0.1-cp35-cp35m-win_amd64.whl
 	pip install --ignore-installed --upgrade matplotlib
 	TROUBLESHOOTING: If at any time you would like to re-create a conda environment, type the following (if you're in tensorflow's command prompt):
 	deactivate tensorflow
