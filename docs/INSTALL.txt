@@ -8,25 +8,25 @@ docker), please visit tensorflow.org and follow the Python 3 instructions.
 MacOS:
 	If you do not have it already, install git from https://git-scm.com/download/mac
 	Install the latest version of python 3 from https://www.python.org/downloads/
-	pip3 install --upgrade tensorflow
-	pip3 install --upgrade matplotlib
+	$> pip3 install --upgrade tensorflow
+	$> pip3 install --upgrade matplotlib
 
 Ubuntu/Linux:
-	sudo -H apt-get install git
-	sudo -H apt-get install python3
-	sudo -H apt-get install python3-matplotlib
-	sudo -H apt-get install python3-pip
-	sudo -H pip3 install --upgrade tensorflow
+	$> sudo -H apt-get install git
+	$> sudo -H apt-get install python3
+	$> sudo -H apt-get install python3-matplotlib
+	$> sudo -H apt-get install python3-pip
+	$> sudo -H pip3 install --upgrade tensorflow
 
 Windows:
 	Install Anaconda, Python 3 version: https://www.continuum.io/downloads#windows
 	Open Anaconda prompt and type the following:
-	conda create -n tensorflow python=3.5 (type y, do not press the Enter key)
-	activate tensorflow
-	pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-1.0.1-cp35-cp35m-win_amd64.whl
-	pip install --ignore-installed --upgrade matplotlib
+	$> conda create -n tensorflow python=3.5 (type y, do not press the Enter key)
+	$> activate tensorflow
+	$> pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-1.0.1-cp35-cp35m-win_amd64.whl
+	$> pip install --ignore-installed --upgrade matplotlib
 	TROUBLESHOOTING: If at any time you would like to re-create a conda environment, type the following (if you're in tensorflow's command prompt):
-	deactivate tensorflow
+	$> deactivate tensorflow
 	Then, go to c:/Users/<your Windows identity>/Anaconda3/envs and delete the "tensorflow" folder.
 	Follow the conda steps stated above again to re-install TensorFlow via conda and pip.
 	IMPORTANT NOTE: This installation uses CPU, which is slower than GPU processing, but will ensure that all computers can be supported. If you would rather use GPU, follow the steps to install CUDA here: [https://github.com/tensorflow/tensorflow/blob/master/tensorflow/g3doc/get_started/os_setup.md#optional-install-cuda-gpus-on-linux]
@@ -36,14 +36,14 @@ Windows/Virtualbox:
 	Install Virtualbox from https://www.virtualbox.org/wiki/Downloads
 	Create an Linux/Ubuntu virtual machine and install Ubuntu from http://www.ubuntu.com/download/desktop/
 	[Optional: In the virtual machine install Virtualbox helpers (allows screen resolution changes) using:
-	 sudo -H apt-get install virtualbox-guest-additions-iso
-	 sudo -H apt-get install virtualbox-guest-dkms
+	$> sudo -H apt-get install virtualbox-guest-additions-iso
+	$> sudo -H apt-get install virtualbox-guest-dkms
 	 Open “Additional drivers” app and check that the “Virtualbox Graphics Adapter” and “Virtualbox Guest Service” are selected.]
 	Shut down the virtual machine, max out its Video RAM and CPU settings, allocate 4GB of RAM and restart.
 	Now go to Ubuntu/Linux section.
 
 TEST YOUR INSTALLATION:
-    git clone https://github.com/martin-gorner/tensorflow-mnist-tutorial.git
-    cd tensorflow-mnist-tutorial
-    python3 mnist_1.0_softmax.py
+    $> git clone https://github.com/martin-gorner/tensorflow-mnist-tutorial.git
+    $> cd tensorflow-mnist-tutorial
+    $> python3 mnist_1.0_softmax.py
     => A window should appear displaying a graphical visualisation and you should also see training data in the terminal.
